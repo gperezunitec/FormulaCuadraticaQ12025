@@ -7,5 +7,7 @@ public partial class FOrmulaCuadraticaView : ContentPage
 	public FOrmulaCuadraticaView()
 	{
 		InitializeComponent();
+		viewModel=new FOrmulaCuadraticaView();
+		BindingContext=viewModel;
 	}
 }
